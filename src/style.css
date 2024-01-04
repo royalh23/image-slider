@@ -16,11 +16,23 @@ body {
 
 #content {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  height: inherit;
+  background-color: #e2e8f0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.main {
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  height: inherit;
-  background-color: #e2e8f0;
 }
 
 .picture-frame {
@@ -53,4 +65,21 @@ img[src$='jpg'] {
 img[src$='jpg'].visible {
   width: 650px;
   height: 400px;
+}
+
+.navigation {
+  display: flex;
+  gap: 20px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: rgb(60, 60, 60);
 }
