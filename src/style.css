@@ -39,6 +39,8 @@ h1 {
   width: 650px;
   height: 400px;
   overflow: hidden;
+  box-shadow: 0 0 30px #383838;
+  border-radius: 20px;
 }
 
 .image-slides {
