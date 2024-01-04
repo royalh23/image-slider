@@ -1,5 +1,8 @@
-This is a webpack template repository, which includes as default:
+This project creates a simple image slider that contains 3 images.
 
-- Webpack (devDependency);
-- ESlint (devDependency);
-- Prettier (devDependency).
+- Next and previous images can be displayed using arrow buttons;
+- There are navigations circles indication on which slide you're currently on;
+- Users can click circles to jump to the corresponding slide;
+- The slides advance to the next one every 5 seconds.
+
+The project is live at: https://royalh23.github.io/image-slider/
