@@ -46,4 +46,6 @@ import './style.css';
       showSelectedImg(e);
     }),
   );
+
+  setInterval(showNextImg, 5000);
 })();
