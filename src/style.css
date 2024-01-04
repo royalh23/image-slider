@@ -80,6 +80,11 @@ img[src$='jpg'].visible {
   cursor: pointer;
 }
 
-.selected {
+.circle:hover {
+  background-color: white;
+}
+
+.selected,
+.selected:hover {
   background-color: rgb(60, 60, 60);
 }
